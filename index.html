@@ -1,0 +1,51 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a id="link" download="mypicture.png" href ></a>
+        <h1>Collage Selfie App
+            <img id="logo_img" src="random_scenic_img.jpg">
+    
+
+        </h1>
+        <hr>
+        <h4 style="color:red;"> As soon as the popup appears, please click Allow. After you've spoken a command. </h4>
+        <h3> Say "selfie" for Taking your selfies and to make a Collage</h3>
+        <div class="form-group">
+            <label>Your voice output : </label>
+<textarea class="form-control" id="textbox"  readonly="True"></textarea>
+        </div>
+
+        <p>Press the Start button</p>
+<button id="start-btn" class="btn btn-primary" onclick="start()">Start</button>
+<br><br>
+        <label>Your webcam : </label>
+<div id="camera"></div>
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+<div id="resultShow" ></div>
+<div id="result1"></div>
+<div id="result2"></div>
+<div id = "result3"></div>
+    </div>
+
+    <div class="copy_right_footer">
+        Developed by - Roshni
+    </div> 
+
+
+    <script src="main.js"></script>
+</body>
+</html>
